@@ -11,23 +11,23 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 # ======================== This  section will remove the hamburger and watermark and footer and header from streamlit ===========
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            # header {visibility: hidden;}
-            footer:after {
-                            content:'\u00A9 Rahul-AkaVector. All rights reserved.'; 
-	                        visibility: visible;
-	                        display: block;
-	                        position: relative;
-	                        #background-color: red;
-	                        padding: 5px;
-	                        top: 2px;
-                        }
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+# hide_streamlit_style = """
+#             <style>
+#             #MainMenu {visibility: hidden;}
+#             footer {visibility: hidden;}
+#             # header {visibility: hidden;}
+#             footer:after {
+#                             content:'\u00A9 Rahul-AkaVector. All rights reserved.';
+# 	                        visibility: visible;
+# 	                        display: block;
+# 	                        position: relative;
+# 	                        #background-color: red;
+# 	                        padding: 5px;
+# 	                        top: 2px;
+#                         }
+#             </style>
+#             """
+# st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # ======================== This  section will remove the hamburger and watermark and footer and header from streamlit ===========
 
